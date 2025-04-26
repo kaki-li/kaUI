@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "kaki’s UI",
+  base: "/kaUI/",
   description: "A handsome uI that  based on elementUI ",
   outDir: "../docs",
   themeConfig: {
